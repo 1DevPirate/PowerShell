@@ -1,1 +1,1 @@
-CreateDNSDelegation:$false -DatabasePath "C:\Windows\NTDS" -DomainMode "Win2012R2" -DomainName "sky.ent" -DomainNetbiosName "SKY" -ForestMode "Win2012R2" -InstallDns:$true -Logpath "C:\Windows\NTDS" -NoRebootOnCompletion:$false -SysvolPath "C\Windows\SYSVOL" -Force:$true
+Install-ADDSForest -CreateDNSDelegation:$false -DatabasePath "C:\Windows\NTDS" -DomainMode "Win2012R2" -DomainName "sky.ent" -DomainNetbiosName "SKY" -ForestMode "Win2012R2" -InstallDns:$true -Logpath "C:\Windows\NTDS" -NoRebootOnCompletion:$false -SysvolPath "C\Windows\SYSVOL" -Force:$true
